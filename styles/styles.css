@@ -50,6 +50,7 @@ p {
     align-items: center;
 }
 
+
 main {
     grid-column: 2/3;
     margin: 1rem;
@@ -81,6 +82,13 @@ aside img {
 header, footer {
     max-width: 840px;
     margin: 0 auto;
+}
+
+
+header {
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 
