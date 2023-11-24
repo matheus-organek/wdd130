@@ -38,9 +38,44 @@ body {
     margin: 0 auto;
 }
 
-header nav a {
-    text-decoration: none;
+
+header {
+    background-color: var(--nav-background-color);
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    
 }
+
+
+header img {
+    max-width: 100%;
+}
+
+
+header nav {
+    text-align: right;
+}
+
+
+header nav a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+    font-weight: 500;
+}
+
+
+header nav a:hover {
+    color: var(--nav-hover-link-color);
+}
+
+
+header img {
+    margin-right: 20px;
+}
+
 
 section img {
     display: block;
