@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
-
+/* Styling definition */
 :root {
     --primary-color: #3498DB;
     --secondary-color: #2ECC71;
@@ -21,21 +21,21 @@
 }
 
 
-
+/* H (Titles) font styling */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
 
-
+/* Paragraphs styling */
 p {
     font-family: var(--paragraph-font);
     color: var(--nav-link-color);
 }
 
 
-
+/* Body styling */
 body {
     color: var(--nav-link-color);
     max-width: 1200px;
@@ -43,7 +43,7 @@ body {
 }
 
 
-
+/* Header styling */
 header {
     padding: 20px 0;
     display: grid;
@@ -76,7 +76,7 @@ header nav a:hover {
 }
 
 
-
+/* Hero class styling */
 .hero {
     position: relative;
 }
@@ -121,7 +121,7 @@ header nav a:hover {
 }
 
 
-
+/* History section styling */
 .history {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -148,7 +148,7 @@ header nav a:hover {
 }
 
 
-
+/* Adventure section styling */
 .adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -171,20 +171,24 @@ header nav a:hover {
 }
 
 
-
+/* Footer styling */
 footer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid var(--primary-color);
 }
 
 footer p {
-    align-self: center;
     text-align: center;
 }
 
-footer nav.sociallinks a img {
+footer nav.sociallinks a {
     text-decoration: none;
-    width: 50px;
-    height: 50px;
+}
+
+footer nav.sociallinks a img {
+    width: 30px;
+    height: 30px;
 }
