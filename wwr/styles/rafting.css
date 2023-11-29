@@ -62,7 +62,7 @@ header nav {
 }
 
 header nav a {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: var(--nav-link-color);
     text-decoration: none;
     font-family: var(--paragraph-font);
@@ -125,7 +125,6 @@ header nav a:hover {
 .history {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto auto;
     grid-gap: 20px;
     align-items: center;
     justify-items: center;
@@ -152,7 +151,6 @@ header nav a:hover {
 .adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-row: auto auto;
     grid-gap: 5px;
     align-items: center;
     justify-items: center;
