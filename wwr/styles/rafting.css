@@ -215,6 +215,10 @@ footer nav.sociallinks a img {
     align-self: center
 }
 
+.information .contact h2 {
+    color: var(--secondary-color);
+}
+
 .information .map {
     width: 100%;
     grid-column: 2;
@@ -232,7 +236,7 @@ footer nav.sociallinks a img {
 }
 
 .employee h2 {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     grid-column: span 3;
 }
 
