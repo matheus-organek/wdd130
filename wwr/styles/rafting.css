@@ -64,7 +64,7 @@ header nav {
 
 header nav a {
     background-color: var(--primary-color);
-    color: var(--nav-link-color);
+    color: var(--nav-hover-link-color);
     text-decoration: none;
     font-family: var(--paragraph-font);
     border: 1px solid #000;
@@ -218,7 +218,7 @@ footer nav.sociallinks a img {
 }
 
 .information .contact h2 {
-    color: var(--secondary-color);
+    color: var(--accent2-color);
 }
 
 .information .map {
@@ -240,7 +240,7 @@ footer nav.sociallinks a img {
 }
 
 .employee h2 {
-    color: var(--secondary-color);
+    color: var(--accent2-color);
     grid-column: span 3;
 }
 
