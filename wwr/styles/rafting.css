@@ -213,7 +213,8 @@ footer nav.sociallinks a img {
     width: 100%;
     grid-column: 1;
     text-align: left;
-    align-self: center
+    align-self: center;
+    margin: 15px;
 }
 
 .information .contact h2 {
@@ -224,6 +225,7 @@ footer nav.sociallinks a img {
     width: 100%;
     grid-column: 2;
     align-self: center;
+    margin: 15px;
 }
 
 
@@ -234,6 +236,7 @@ footer nav.sociallinks a img {
     grid-gap: 5px;
     align-items: center;
     justify-items: center;
+    margin: 50px;
 }
 
 .employee h2 {
