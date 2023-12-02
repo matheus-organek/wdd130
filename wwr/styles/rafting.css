@@ -25,6 +25,7 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
 }
 
 
@@ -189,4 +190,128 @@ footer nav.sociallinks a {
 footer nav.sociallinks a img {
     width: 30px;
     height: 30px;
+}
+
+
+
+/* Contact.html page styling */
+/* Information section styling */
+.information {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    justify-items: start;
+}
+
+.information h1 {
+    grid-column: span 2;
+    text-align: center;
+}
+
+.information .contact {
+    width: 100%;
+    grid-column: 1;
+    text-align: left;
+    align-self: center
+}
+
+.information .map {
+    width: 100%;
+    grid-column: 2;
+    align-self: center;
+}
+
+
+/* Employee section styling */
+.employee {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    align-items: center;
+    justify-items: center;
+}
+
+.employee h2 {
+    color: var(--primary-color);
+    grid-column: span 3;
+}
+
+.employee img {
+    width: 100%;
+    height: 125px;
+    object-fit: cover;
+}
+
+
+/* Form styling */
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    row-gap: 1.5rem;
+}
+
+
+/* Customer Class styling */
+.customerinfo {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.customerinfo label {
+    margin-bottom: 5px;
+}
+
+.customerinfo input {
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+
+/* Message Class styling */
+.message {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1rem;
+}
+
+.message p {
+    grid-column: span 4;
+}
+
+.message label {
+    grid-column: 1;
+    text-align: left;
+}
+
+.message input {
+    grid-column: 2;
+}
+
+.message textarea {
+    grid-column: span 4;
+    width: 100%;
+    height: 150px;
+}
+
+
+/* Button styling */
+button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
 }
