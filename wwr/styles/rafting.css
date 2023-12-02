@@ -201,6 +201,7 @@ footer nav.sociallinks a img {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     justify-items: start;
+    background-color: #eee;
 }
 
 .information h1 {
