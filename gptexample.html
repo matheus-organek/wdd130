@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafting Adventures</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .full-width-image {
+            width: 100%;
+        }
+
+        .newsletter-form {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .cta-link {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .grid-item {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Rafting Adventures</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Tours</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <img src="rafting-image.jpg" alt="Rafting Adventures" class="full-width-image">
+        <div class="newsletter-form">
+            <h2>Inscreva-se na nossa newsletter</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <input type="submit" value="Inscrever">
+            </form>
+        </div>
+        <a href="pagina-de-viagens.html" class="cta-link">Explore nossas viagens</a>
+    </section>
+
+    <section class="grid-container">
+        <div class="grid-item">
+            <img src="rafting-image1.jpg" alt="Rafting 1">
+            <p>Descubra a emoção do rafting em águas turbulentas. Nossos guias experientes garantem uma aventura segura e empolgante.</p>
+        </div>
+        <div class="grid-item">
+            <img src="rafting-image2.jpg" alt="Rafting 2">
+            <p>Oferecemos pacotes para todas as idades e níveis de habilidade. Desde iniciantes até os mais experientes, temos algo para todos.</p>
+        </div>
+    </section>
+
+</body>
+</html>
