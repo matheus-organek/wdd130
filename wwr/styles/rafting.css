@@ -396,5 +396,40 @@ section h1 {
 }
 
 
+
 /* Trips.html page styling */
 /* Information section styling */
+.contact-call p {
+    text-align: left;
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.trip-grid-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.trip-grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.trip-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
