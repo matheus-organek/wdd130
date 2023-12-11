@@ -148,7 +148,7 @@ header nav a:hover {
 
 .history h2 {
     font-size: 2rem;
-    color: #007bff;
+    color: var(--primary-color);
     grid-column: span 3;
 }
 
@@ -174,7 +174,7 @@ header nav a:hover {
 
 .adventure h2 {
     font-size: 2rem;
-    color: #007bff;
+    color: var(--primary-color);
     grid-column: span 5;
 }
 
